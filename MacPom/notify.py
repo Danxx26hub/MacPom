@@ -29,6 +29,7 @@ class timer:
         subprocess.call(["sleep", str(self.seconds)])
         notification = Notify(title, message, sound)
         notification.notify()
+
     # used for timer testing.
     # def countdown(self):
     #     print(f"Timer set for {self.minutes} minutes")

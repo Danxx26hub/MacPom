@@ -9,3 +9,9 @@ Using mostly standard library in Python, this python code will notify you its ti
 Super simple 
 
 :smile:
+
+The code makes use of the (https://schedule.readthedocs.io/en/stable/)[schedule] library by Dan Bader. It also demonstrates some 
+simple Python concepts. Creating classes, subclassing, sepeating configuration from the actual code. And finally a simple logger is 
+impleneted using a Python Decorator. Why did I code this, to practice and not forget these awesome concepts.
+
+
