@@ -7,6 +7,7 @@ class prodSettings(BaseSettings):
     title: str = "Pomodoro Timer"
     run_time: int = 1
     log_level: str = "INFO"
+    sound: str = "Glass"
 
     class Config:
         """config class for local secrets"""
@@ -19,6 +20,7 @@ class devSettings(BaseSettings):
     title: str = "Pomodoro Timer"
     run_time: int = 1
     log_level: str = "DEBUG"
+    sound: str = "Glass"
 
     class Config:
         """config class for local secrets"""
