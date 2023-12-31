@@ -3,3 +3,4 @@ __pycache__/
 .prodenv
 *.txt
 *.log
+env/
