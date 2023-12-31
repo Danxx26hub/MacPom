@@ -9,7 +9,7 @@ class Notify:
         self.title = title
         self.message = message
         self.sound = sound
-        self.cmd = f'display notification "{self.message}" with title "{self.title} sound name {self.sound}}"'
+        self.cmd = f'display notification "{self.message}" with title "{self.title}" sound name "{self.sound}"'
 
     def notify(self):
         subprocess.call(["osascript", "-e", self.cmd])

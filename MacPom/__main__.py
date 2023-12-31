@@ -8,7 +8,7 @@ def job():
     time = get_settings("dev").run_time
     timing = timer(time)
     timing.start()
-    timing.countdown()
+    # timing.countdown()
 
 
 schedule.every(get_settings("dev").run_time).minutes.do(job)
